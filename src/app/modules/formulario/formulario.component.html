@@ -1,0 +1,12 @@
+<div >
+    <div class="formulario"> 
+        <h2>Tarea</h2>
+        <input type="text" [(ngModel)]="newTask.name">
+        <h2>Description</h2> 
+         <textarea cols="30" rows="10" [(ngModel)]="newTask.description"></textarea>
+         <br>
+        <button>Submit</button>
+    </div>
+</div>
+<h2>{{newTask | json}}</h2>
+
